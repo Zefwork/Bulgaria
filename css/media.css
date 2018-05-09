@@ -1,0 +1,304 @@
+/* Tabs  version 1024px-768px*/
+
+@media screen and (max-width: 992px) {
+	
+	.prev-arrow {
+		left: -25px;
+	}
+
+	.next-arrow {
+		right: -25px;
+	}
+
+	h1 {
+		font-size: 4.267rem;
+		margin-left: -250px;
+	}
+	
+	h2 {
+		font-size: 2.933rem;
+	}
+	
+	.mainh2 {
+		margin-left: -130px;
+	}
+
+	.advantages__item {
+		margin-bottom: 0;
+	}
+
+	.half-width {
+		width: 50%;
+	}
+	
+	.lower {
+		margin-bottom: 10%;
+	}
+
+	.dream {
+		width: 90%;
+	}
+
+	.dream__photos_left {
+		top: -70px;
+		left: 0;
+		margin-left: 30%;
+	}
+	
+	.dream__photos_right {
+		top: -60px;
+		left: 0;
+		margin-left: 55%;
+	}
+
+	.dream__photos_center {
+		top: -120px;
+		left: 0;
+		margin-left: 40%;
+	}
+
+	.dreams-below {
+		width: 90%;
+	}
+
+	.dream__ball {
+		left: 0;
+		margin-left: 45%;
+	}
+}
+
+/* Mobiles  version 768px-480px*/
+
+@media screen and (max-width: 768px) {
+
+	h1 {
+		letter-spacing: 5px;
+		margin-left: -190px;
+	}
+
+	.advantages__item {
+		width: 90%;
+	}
+
+	.advantages__text {
+		width: 80%;
+	}
+	
+	.recall {
+		width: 95%;
+		padding: 0 10%;
+		text-align: center;
+		margin-top: 35%;
+	}
+
+	.recall__header {
+		float: none;
+		width: 100%;
+		letter-spacing: 3px;
+	}
+
+	.recall__link {
+		float: none;
+		margin-left: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.recall__city {
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-top: 3%;
+	}
+	
+	.recall__photo {
+    	top: -140px;
+    	left: 40%;
+	}
+
+	.bullet_left {
+    	left: 45%;
+	}
+
+	.bullet_center {
+    	left: 50%;
+	}
+
+	.bullet_right {
+    	left: 55%;
+	}
+
+	.footer__reserved {
+		text-align: right;
+	}
+}
+
+/* Контакты (страница) */
+
+/* Tabs  version 1024px-768px*/
+
+@media screen and (max-width: 992px) {
+
+	.contacts-main {
+	    background: #fff;
+	}
+
+	.contacts-main-block {
+	    width: 100%;
+	    margin: 0;
+	    position: static;
+	    top: 0; 
+	}
+
+	.contacts-main-block__item {
+		margin-left: 0;
+	    margin-top: 100px;
+	}
+
+	.input-width {
+		width: 80%;
+	}
+	}
+
+/* Mobiles  version 768px-480px*/
+
+@media screen and (max-width: 768px) {
+	.contacts-main-block__item {
+		background: url(../img/cellphone.png) no-repeat top center;
+	}
+	
+	.contacts-main-block__item_e-mail {
+	    background: url(../img/Email.png) no-repeat top center;
+	}
+
+	.contacts-main-block__item_skype {
+	    background: url(../img/skype.png) no-repeat top center;
+	}
+	
+	.contacts-main-block__item__header {
+	    padding: 0;
+	    padding-top: 50px;
+	    text-align: center;
+	}
+	
+	.contacts-main-block__item__text {
+	    padding-left: 0;
+	    text-align: center;	
+	}
+
+	.hidden-small	{
+		display: none;
+	}
+}
+
+/* Переезд (страница) */
+
+/* Tabs  version 1024px-768px*/
+
+@media screen and (max-width: 992px) {
+	
+	.move-main {
+		background: #fff;
+	}
+
+	.move-main-block {
+		width: 100%;
+	    margin: 0;
+	    position: static;
+	    top: 0; 
+	}
+
+	.move-text {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+	
+	.move-text__right {
+		padding-left: 0;
+	}
+
+	.move-image__right {
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.move__header {
+		letter-spacing: 4px;
+		font-size: 3rem;
+	}
+
+	.move-text {
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	.move-image__right {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0;
+	}
+
+	.move-text__right {
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
+
+/* О компании (страница) */
+
+/* Tabs  version 1024px-768px*/
+
+@media screen and (max-width: 992px) {
+	
+	.about-main {
+	    background: #fff;
+	}
+
+	.about-main-block {
+		width: 100%;
+	    margin: 0;
+	    position: static;
+	    top: 0; 
+	}
+
+	.about-partners-block {
+    width: 95%;
+    height: 600px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.about-text {
+		padding: 0 10px;
+	}
+	
+	.about-block__clients {
+		text-align: center;
+	}
+
+	.about-block__clients-text {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	
+	.about-block__center-text {
+		margin-bottom: 25px;
+	}
+	
+	.about-block__right-header {
+		text-align: center;
+	}
+
+	.about-block__right-text {
+		text-align: center;
+	} 
+
+	.about-partners-block {
+		height: 525px;
+	}
+}

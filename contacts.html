@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Contacts">
+	<meta name="keywords" content="Questions, Email, telephone, skype">
+	<meta property="og:title" content="Contacts">
+ 	<meta property="og:description" content="Compass contacts">
+ 	<meta property="og:type" content="article">
+ 	<meta property="og:site_name" content="Contacts">
+	<title>Contacts</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/simple.css">
+	<link rel="stylesheet" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header>
+		<div class="overlay">
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-3">
+							<img src="img/logo-h.png" alt="Compass" class="logo">
+						</div>
+						<div class="col-md-7">
+							<nav class="visible-lg visible-md">
+								<ul class="nav-menu clearfix">
+									<li class="nav-menu__item">
+										<a href="index.html">
+											Главная
+										</a>
+									</li>
+									<li class="nav-menu__item">
+										<a href="about.html">
+											О компании
+										</a>
+									</li>
+									<li class="nav-menu__item">
+										<a href="move.html">
+											ВНЖ и ПМЖ в Болгарии
+										</a>
+									</li>
+									<li class="nav-menu__item">
+										<a href="move.html">
+											Недвижимость и переезд
+										</a>
+									</li>
+									<li class="nav-menu__item">
+										<a href="contacts.html">
+											Контакты
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-md-3 col-sm-9">
+							<div class="contacts hidden-small">
+								<div class="phone-icon pull-left">
+									<i class="fa fa-phone"></i>
+								</div>
+								<div style="display: none;">
+									<div class="box-modal" id="exampleModal">
+										<div class="box-modal_close arcticmodal-close">закрыть</div>
+										<form action="#" class="consulting">
+											<div class="row">
+												<div class="col-md-12">
+													<input type="text" name="name" placeholder="Имя" class="consulting__input center-block" required>
+												</div>
+											</div>	
+											<div class="row">
+												<div class="col-md-12">
+													<input type="email" name="email" placeholder="E-mail" class="consulting__input center-block" required>
+												</div>
+											</div>	
+											<div class="row">
+												<div class="col-md-12">
+													<input type="tel" name="tel" placeholder="Телефон" class="consulting__input center-block" required>
+												</div>
+											</div>	
+											<div class="row">
+												<div class="col-md-12">
+													<button class="consulting__order_btn upper center-block blue-back" type="submit">
+														Заказать консультацию
+													</button>
+												</div>
+											</div>	
+										</form>
+									</div>
+								</div>
+								<div class="contacts__phone">
+									+7 (495) 12-321-345 <br> +7 (495) 12-321-345	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="contacts__header upper white">
+				Контакты
+			</h1>
+			<a id="movearrow" href="#main-contacts">
+				<i class="fa fa-angle-down"></i>
+			</a>
+		</div>
+	</header>
+	<section class="contacts-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 clearfix">
+					<div id="main-contacts" class="contacts-main-block clearfix">
+						<h4 class="contacts-main-block__header">
+							Мы всегда на связи и ответим на все интересующие Вас вопросы!
+						</h4>
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<ul class="contacts-main-block__images clearfix">
+									<li class="contacts-main-block__item">
+										<div class="contacts-main-block__item__header upper">
+											Телефоны
+										</div>
+										<div class="contacts-main-block__item__text">
+											
+										</div>
+									</li>
+									<li class="contacts-main-block__item contacts-main-block__item_e-mail">
+										<div class="contacts-main-block__item__header upper">
+											E-mail
+										</div>
+										<div class="contacts-main-block__item__text">
+											info@sitename.ru
+										</div>
+									</li>
+									<li class="contacts-main-block__item contacts-main-block__item_skype">
+										<div class="contacts-main-block__item__header upper">
+											Skype
+										</div>
+										<div class="contacts-main-block__item__text">
+											skypename
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<form action="#" class="contacts-consulting white center-block clearfix">
+									<div class="form-header upper text-center">
+										Есть вопросы <br> по переезду в болгарию?
+									</div>
+									<div class="consult-form__free text-center upper">
+										Мы проконсультируем <br> Вас бесплатно!
+									</div>
+									<input type="text" name="name" placeholder="Имя" class="consulting__input center-block input-width" required>
+									<input type="email" name="email" placeholder="E-mail" class="consulting__input center-block  input-width" required>
+									<input type="tel" name="tel" placeholder="Телефон" class="consulting__input center-block input-width" required>
+									<button class="consulting__order_btn upper center-block margin-btn input-width" type="submit">
+										Заказать консультацию
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<img src="img/logo-f.png" alt="Logo" class="footer__logo">
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="footer__reserved">
+						2016 / Все права защищены 
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="footer__reserved hidden-small">
+						   Политика конфиденциальности
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer__contacts visible-md visible-lg">
+						<div class="footer__phone-icon pull-left">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="contacts__phone pull-left">
+							+7 (495) 12-321-345 <br> +7 (495) 12-321-345
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="https://use.fontawesome.com/aafb76c1f6.js"></script>
+<script src="js/jQuery-3.2.1.min.js"></script>
+<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
